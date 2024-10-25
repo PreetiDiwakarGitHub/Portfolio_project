@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set a default font */
+}
+
+.Home_Text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 60vh;
+  width: 70vw;
+  margin: 150px auto;
+  border-radius: 10px;
+  background-color: rgb(187, 203, 203);
+  padding: 30px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  color: #333; 
+}
+.resumebtn a{
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.Home_Text h1 {
+  font-size: 40px;
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Align text to the left */
+}
+
+.Home_Text h2 {
+  font-size: 30px; /* Font size for name and title */
+  text-align: left; /* Align text to the left */
+}
+
+.highlight {
+  color: #e74c3c; /* Highlight color for "I'm" and the name */
+}
+
+.normal {
+  color: #2c3e50; /* Normal color for the title */
+}
+
+.Home_Text p {
+  font-size: 18px;
+  /* line-height: 1.5; */
+  margin: 20px 0; /* Space between the paragraph and button */
+  color: #34495e; /* Slightly lighter color for the paragraph */
+  text-align: left; /* Align text to the left */
+}
+
+.Home_Text button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: #2a4027; /* Button Background Color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  display: block; /* Make the button a block element */
+  margin-top: 20px; /* Add space above the button */
+}
+
+.Home_Text button:hover {
+  transform: translateY(-5px);
+  background-color: #f4a261; /* Button Hover Color */
+}
+
+.image {
+  display: flex; /* Flexbox for image alignment */
+  align-items: center; /* Center vertically */
+}
+
+.image img {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 50%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Home_Text {
+      flex-direction: column;
+      text-align: left; /* Keep text aligned to the left */
+      width: 90vw;
+      height: auto;
+      padding: 20px;
+  }
+
+  .Home_Text h1 {
+      font-size: 30px; /* Adjust font size for mobile view */
+  }
+
+  .Home_Text h2 {
+      font-size: 24px; /* Adjust font size for mobile view */
+  }
+
+  .Home_Text p {
+      font-size: 16px;
+  }
+
+  .image img {
+      height: 30vh;
+      width: 30vw;
+  }
+}
