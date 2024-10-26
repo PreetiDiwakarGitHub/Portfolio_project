@@ -13,7 +13,7 @@ function Home() {
           <span className="highlight">Preeti Diwakar</span>
         </h2>
         <h1>
-        <span className="normal"> Frondend Developer</span>
+        <span className="normal"> Frontend Developer</span>
         </h1>
         <p>
           I am passionate about creating efficient and user-friendly web applications. With a focus on problem-solving and continuous learning, I build solutions that drive results and improve user experience.
